@@ -1,0 +1,62 @@
+/*celular*/
+@media(max-width: 576px){
+    #caroussel {
+        background-color: rgb(202, 95, 95);
+        display: grid;
+        width: 100vh;
+        align-items: center;
+    }
+    #formulario3 {
+      background-color: rgb(166, 214, 127);
+      width: max-content;
+    }
+    #tarjetas3 {
+      align-items: center;
+      width: 100%;
+    }
+    .card{
+      width: 200%;
+    }
+    
+    header {
+    background-color: rgb(202, 95, 95);
+    grid-area: header;
+  }
+}
+
+/*tablet*/
+@media(max-width: 768px){
+  
+  header {
+    background-color: rgb(154, 95, 202);
+    grid-area: header;
+  }
+  aside{
+    display:none;
+  }
+  #formulario3 {
+    background-color: rgb(166, 214, 127);
+    width: max-content;
+  }
+  #tarjetas3 {
+    align-items: center;
+    width: 100%;
+  }
+  .card{
+    width: 200%;
+  }
+  
+}
+#tarjetas3 {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* transiciones*/
+.formularios :hover{
+    height: 8vh;
+    background-image: linear-gradient(to left,green,rgb(114, 250, 148));
+    transform: skew(2deg);
+}
